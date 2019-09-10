@@ -1,0 +1,25 @@
+*{
+    font-family: "Lucida Grande", sans-serif; 
+}
+
+h1{
+    font: 64px;
+    align-content: center;
+}
+
+h2{
+    font: 32px;
+    text-shadow: 4px 4px 2px black;
+    
+}
+p{
+    font: 16px;
+    padding-top: 15px;
+}
+#intro{
+    background-color: black;
+    color: white;
+    text-align: left;
+    height: 100px;
+    padding: 30px;
+}
