@@ -1,20 +1,32 @@
 *{
     font-family: "Lucida Grande", sans-serif; 
 }
+body{
+    background-color: black;
+}
 
 h1{
     font: 64px;
-    align-content: center;
+    color: #ffffff;
+    text-align: center;
 }
 
 h2{
     font: 32px;
     text-shadow: 4px 4px 2px black;
+    margin: 0px;
     
 }
 p{
     font: 16px;
     padding-top: 15px;
+    margin: 0px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
 }
 #intro{
     background-color: black;
@@ -22,4 +34,43 @@ p{
     text-align: left;
     height: 100px;
     padding: 30px;
+}
+#red{
+    background-color: red;
+    color: white;
+    text-align: right;
+    height: 100px;
+    padding: 30px;
+}
+#blue{
+    background-color: blue;
+    color: white;
+    text-align: left;
+    height: 100px;
+    padding: 30px;
+}
+#yellow{
+    background-color:yellow;
+    color: black;
+    text-align: right;
+    height: 100px;
+    padding: 30px;
+}
+#yellow h2{
+    text-shadow: 4px 4px 2px grey;
+}
+#green{
+    background-color:green;
+    color: white;
+    text-align: left;
+    height: 100px;
+    padding: 30px;
+}
+footer{
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
